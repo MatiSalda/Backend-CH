@@ -1,0 +1,21 @@
+    <h1 class="titulo"> Vista de productos </h1>
+
+<div class="contenedor">
+    {{#each all.productos}}
+    <div class="producto">
+    <p class="info-producto">Nombre: {{this.nombre}}</p>
+    <p class="info-producto">Precio: {{this.precio}}</p>
+     <img class="imagen" src="{{this.imagen}}" alt="{{this.nombre}}">
+    </div>
+   
+    {{/each}}
+   
+    <h3 class="mensaje-sin-producto">{{productos.mensaje}}</h3>
+    <a href="http://localhost:8080/" class="enviar"> Volver a inicio</a>
+
+    <div id="mensaje">
+        
+    </div>
+</div>
+
+

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive; 
+    font-weight: 200;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(249, 228, 155);
+}
+::selection{
+    color: rgb(24, 95, 42);
+    background-color: white;
+}
+
+.titulo{
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.botonChat {
+    background-color: rgb(24, 95, 42);
+    border-radius: 20px; 
+    width: 20%;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+
+}
+.contenedor{
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   width: 50%;
+   padding: 20px;
+    background-color: rgb(24, 95, 42);
+    border-radius: 20px; 
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+}
+
+.contenedor .info-producto{
+    margin: 20px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.producto{
+    
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: rgb(252, 239, 191);
+border: 3px solid black;
+border-radius: 10px;
+margin: 10px;
+}
+
+.contenedor .mensaje-sin-producto{
+    margin: auto;
+    color: white;
+   
+}
+
+#formProductos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(24, 95, 42) ;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+}
+
+.enviar{
+    margin: 10px 0 0 0;
+    background-color: rgb(252, 239, 191);
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid black;
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.contenedorMensajes{
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   width: 50%;
+   height: 100%;
+   padding: 20px;
+  
+    background-color: rgb(24, 95, 42);
+    border-radius: 20px; 
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5);
+
+}
+
+.contenedorEscritura{
+    display: flex;
+    justify-content: center;
+}
+.escritura{
+    margin-top: 40px;
+   width: 70%;
+   height: 25px;
+   border: 2px solid black;
+   border-radius: 10px;
+
+}
+
+.mensajes{
+    color: white;
+}

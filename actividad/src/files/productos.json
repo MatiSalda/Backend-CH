@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Monitor LG",
+    "precio": "300",
+    "imagen": "imagen/1668121865820-2.jpg",
+    "id": 1
+  },
+  {
+    "nombre": "Monitor LG",
+    "precio": "300",
+    "imagen": "imagen/1668122723966-2.jpg",
+    "id": 2
+  },
+  {
+    "nombre": "Monitor LG",
+    "precio": "300",
+    "imagen": "imagen/1668122726412-2.jpg",
+    "id": 3
+  },
+  {
+    "nombre": "Monitor LG",
+    "precio": "300",
+    "imagen": "",
+    "id": 4
+  },
+  {
+    "nombre": "Monitor LG",
+    "precio": "300",
+    "imagen": "",
+    "id": 5
+  },
+  {
+    "nombre": "Control Remoto 3d",
+    "precio": "1",
+    "imagen": "",
+    "id": 6
+  },
+  {
+    "nombre": "Control Remoto 3d",
+    "precio": "1",
+    "imagen": "",
+    "id": 7
+  }
+]
