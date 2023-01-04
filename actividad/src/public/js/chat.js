@@ -42,6 +42,7 @@ Swal.fire({
 
     socket.on('nuevoUsuarioConectado',data=>{
         if(!user) return 
+        console.log(data + " se unio al chat")
             Swal.fire({
                 toast:true,
                 position:"bottom-end",

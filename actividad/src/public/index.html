@@ -13,22 +13,38 @@
 <body>
     <main>
         <h1 class="titulo">Ingrese sus productos</h1>
-        <form id="formProductos">
+        <form id="productForm" class="productForm">
             <label>Nombre del producto</label>
-            <input name="nombre"><br>
-            <label>Precio</label>
-            <input name="precio"><br>
+            <input name="name"><br>
+            <label>Precio</label> 
+            <input name="price"><br>
             <label>Imagen</label>
-            <input type="file" name="imagen"><br>
+            <input type="file" name="image"><br>
             <input class="enviar" type="submit">
            <a href="http://localhost:8080/productos" class="enviar">
               Ver Productos 
             </a> 
         </form>
 
+        
+        <h2 class="titulo">Productos en tiempo real</h2>
+        <div class="productForm">
+            <table>
+                <thead>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </thead>
+                <tbody id="products">
+                    
+                </tbody>
+            </table>
+        </div>
+        
         <a class="titulo botonChat" href="http://localhost:8080/chat"><h2 class="" >Ir al chat</h1> </a>
-
-    </main>
+    
+        </main>
     <script src="index.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/productos.js"></script>
 </body>
 </html>

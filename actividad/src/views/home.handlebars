@@ -1,11 +1,11 @@
     <h1 class="titulo"> Vista de productos </h1>
 
 <div class="contenedor">
-    {{#each all.productos}}
+    {{#each productos}}
     <div class="producto">
-    <p class="info-producto">Nombre: {{this.nombre}}</p>
-    <p class="info-producto">Precio: {{this.precio}}</p>
-     <img class="imagen" src="{{this.imagen}}" alt="{{this.nombre}}">
+    <p class="info-producto">Nombre: {{this.name}}</p>
+    <p class="info-producto">Precio: {{this.price}}</p>
+     <img class="imagen" src="{{this.image}}" alt="{{this.image}}">
     </div>
    
     {{/each}}
