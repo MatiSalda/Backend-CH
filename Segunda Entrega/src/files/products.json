@@ -1,0 +1,60 @@
+[
+	{
+		"name": "Xiaomi",
+		"description": "the best cellphone",
+		"price": 24,
+		"code": "asf3466132",
+		"image": "urrrl",
+		"stock": 1,
+		"id": 1,
+		"timestamp": "Thu, 29 Dec 2022 18:51:48 GMT"
+	},
+	{
+		"name": "Motorola",
+		"description": ":D ",
+		"price": 24,
+		"code": "asf3466132",
+		"image": "urrrl",
+		"stock": 10,
+		"id": 3
+	},
+	{
+		"name": "Iphone 15",
+		"price": 30000,
+		"description": "Celular iphone 14 increible :0",
+		"code": "asf3466132",
+		"image": "url",
+		"stock": 40,
+		"timestamp": "Wed, 28 Dec 2022 05:45:45 GMT",
+		"id": 4
+	},
+	{
+		"name": "Iphone 19",
+		"price": 30000,
+		"description": "Celular iphone 14 increible :0",
+		"code": "asf3466132",
+		"image": "url",
+		"stock": 40,
+		"timestamp": "Wed, 28 Dec 2022 16:33:00 GMT",
+		"id": 5
+	},
+	{
+		"name": "Iphone 12",
+		"price": 30000,
+		"description": "Celular iphone 14 increible :0",
+		"code": "asf3466132",
+		"image": "url",
+		"stock": 40,
+		"timestamp": "Wed, 28 Dec 2022 18:40:44 GMT",
+		"id": 6
+	},
+	{
+		"name": "Motorola",
+		"description": ":D ",
+		"price": 24,
+		"code": "111",
+		"image": "urrrl",
+		"stock": 10,
+		"id": 7
+	}
+]
